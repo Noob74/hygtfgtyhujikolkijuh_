@@ -3187,9 +3187,4 @@ message.reply("`تم حذف جميع الرتب بنجاح`")
 });
 
 
-
-
-
-
-
 client.login(process.env.BOT_TOKEN);
