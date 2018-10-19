@@ -2,8 +2,16 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on('ready', () => {
+ console.log(`----------------`);
+      console.log(`Desert Bot- Script By : i1Suhaib`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : i1Suhaib ' `);
+    console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`Over Power Shop`,"http://twitch.tv/S-F")
+client.user.setStatus("dnd")
 });
+
 
 //الاوامر//
 
@@ -43,7 +51,7 @@ client.on("message", message => {
 
 ***__وصف عن البوت__***
 **
-OP BOT 
+Fire bot 
 متعدد الميزات و الاوامر فيه اوامر جميله يحتوي هذا البوت على
 خاصيه قائمه الالوان و تقدر تغير لونك زي برو بوت و مانع الاسبام و الترحيب 
 بصوره
@@ -74,6 +82,7 @@ OP BOT
 
         ***__Bot orders__***
 **
+『f!ping / يعرض لك سرعه اتصال البوت』
 『f!uptime / يعرض لك صار للبوت كم شغال』
 『f!support / سيرفر الدعم القني و المساعده』
 『f!invite / اضافه البوت』
@@ -1226,7 +1235,7 @@ client.on('ready',  () => {
 client.on('ready', function(){
     client.user.setStatus("dnd");
     var ms = 100000 ;
-    var setGame = [`f!help OPSHOP ^^`]
+    var setGame = [`f!help Servers ${client.guilds.size} `,`f!invite Users ${client.users.size}`];
     var i = -1;
     var j = 0;
     setInterval(function (){
